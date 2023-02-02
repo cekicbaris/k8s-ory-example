@@ -28,7 +28,7 @@ spec:
       initContainers:
         -
           name: keto-automigrate
-          image: "oryd/keto:v0.8.0-alpha.2"
+          image: "oryd/keto:v0.10.0"
           imagePullPolicy: IfNotPresent
           command: ["keto"]
           args: ["migrate", "up", "-y", "--config", "/etc/config/keto.yaml"]
@@ -55,7 +55,7 @@ spec:
             readOnlyRootFilesystem: true
             runAsNonRoot: true
             runAsUser: 100
-          image: "oryd/keto:v0.8.0-alpha.2"
+          image: "oryd/keto:v0.10.0"
           imagePullPolicy: IfNotPresent
           command: ["keto"]
           args: [

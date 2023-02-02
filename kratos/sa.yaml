@@ -6,5 +6,5 @@ metadata:
   labels:
     app.kubernetes.io/name: kratos
     app.kubernetes.io/instance: test-kratos
-    app.kubernetes.io/version: "v0.9.0-alpha.3"
+    app.kubernetes.io/version: "v0.11.1"
 

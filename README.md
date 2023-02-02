@@ -26,8 +26,8 @@ oathkeeper         <none>   ory.test.info    192.168.XXX.XXX   80      119s
 # Add ingress to the hosts file
 $ sudo bash -c 'cat << EOF >> /etc/hosts
 # ORY Minikube SSO stack
-192.168.XXX.XXX    mail.test.info
-192.168.XXX.XXX    ory.test.info
+192.168.49.2    mail.test.info
+192.168.49.2    ory.test.info
 EOF'
 
 # Open your browser and open http://ory.test.info/panel/welcome and http://mail.test.info
